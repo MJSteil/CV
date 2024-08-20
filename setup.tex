@@ -1,0 +1,50 @@
+\definecolor{TUDa-1b}{cmyk}{1.0,0.6,0.0,0.0}
+\KOMAoptions{fontsize=10pt}
+
+\newcommand{\ger}[1]{\ifthenelse{\boolean{german}}{#1}{}}
+\newcommand{\eng}[1]{\ifthenelse{\boolean{german}}{}{#1}}
+\newcommand{\lang}[2]{\ifthenelse{\boolean{german}}{#1}{#2}}
+\newcommand{\mmyyyy}[2]{\lang{#1.#2}{#1/#2}}
+
+\input{bibtex}
+\bibliography{MJSteil_CV_2024}
+
+\usepackage[utf8]{inputenc}
+\lang{\usepackage[english, main=ngerman]{babel}}{\usepackage[english]{babel}}
+\usepackage{csquotes}
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+
+\ifoot{\lang{Lebenslauf}{CV} - \firstname~\familyname}
+\ofoot{\pagemark /\,\usekomafont{pagenumber}{\pageref*{LastPage}}}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\makeatletter\renewcommand*{\cventry}[7][\@afterelementsvspace]{%
+	\cvitem[#1]{#2}{%
+		{\bfseries#3}%
+		\ifstrempty{#4}{}{, {\itshape#4}}%
+		\ifstrempty{#5}{}{, #5}%
+		\ifstrempty{#6}{}{, #6}%
+		\ifx%
+			&#7&%
+		\else{%
+			\newline{}\begin{minipage}[t]{\linewidth}%
+				\small#7%
+			\end{minipage}%
+		}%
+		\fi%
+	}%cvitem
+}%cventry
+\makeatother
+
+\renewcommand*\urlbordercolor{TUDa-1b}
+\hypersetup{
+	colorlinks=true,
+	citecolor=TUDa-1b,
+	linkcolor=TUDa-1b,
+	urlcolor=TUDa-1b
+}
+
+\lang{\renewcommand*\pdftitle{Lebenslauf}}{\renewcommand*\pdftitle{Curriculum vitae}}

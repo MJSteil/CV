@@ -1,0 +1,331 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Steil:2024phd}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=d56869c3b9ea291feba55d954f0f09fc}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima Jakob},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität Darmstadt}%
+      }
+      \strng{namehash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{fullhash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{fullhashraw}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{bibnamehash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{authorbibnamehash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{authornamehash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{authorfullhash}{d56869c3b9ea291feba55d954f0f09fc}
+      \strng{authorfullhashraw}{d56869c3b9ea291feba55d954f0f09fc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{From zero-dimensional theories to inhomogeneous phases with the functional renormalization group}}
+      \field{type}{PhD thesis}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.26083/tuprints-00027380
+      \endverb
+    \endentry
+    \entry{Koenigstein:2021syz}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4b23d88736ad751bed13656e4d7c84c5}{%
+           family={Koenigstein},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49fcb2fa68a625847384be50c22c850d}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6ce7d5f22f58214e23a7f8801d78886e}{%
+           family={Wink},
+           familyi={W\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1bcc77a68e857dea3bb5cb7f10f12e35}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3a9b4fa55085e2232df17a1c4533e9e4}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a69c66619f537f7d42bc89814c2e6ee}{%
+           family={Buballa},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b3fdab62f2e9fb13097507c3b02ed18}{%
+           family={Rischke},
+           familyi={R\bibinitperiod},
+           given={Dirk\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{fullhash}{1f2c32aa0eccf7a15e557ee6e90df30b}
+      \strng{fullhashraw}{1f2c32aa0eccf7a15e557ee6e90df30b}
+      \strng{bibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorbibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authornamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorfullhash}{1f2c32aa0eccf7a15e557ee6e90df30b}
+      \strng{authorfullhashraw}{1f2c32aa0eccf7a15e557ee6e90df30b}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.stat-mech}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{number}{6}
+      \field{title}{{Numerical fluid dynamics for FRG flow equations: Zero-dimensional QFTs as numerical test cases. I. The $O(N)$ model}}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{065012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.106.065012
+      \endverb
+      \verb{eprint}
+      \verb 2108.02504
+      \endverb
+      \keyw{pub}
+    \endentry
+    \entry{Koenigstein:2021rxj}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4b23d88736ad751bed13656e4d7c84c5}{%
+           family={Koenigstein},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49fcb2fa68a625847384be50c22c850d}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6ce7d5f22f58214e23a7f8801d78886e}{%
+           family={Wink},
+           familyi={W\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1bcc77a68e857dea3bb5cb7f10f12e35}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3a9b4fa55085e2232df17a1c4533e9e4}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{fullhash}{a0150ef93b18b2ff861e6f951ac19245}
+      \strng{fullhashraw}{a0150ef93b18b2ff861e6f951ac19245}
+      \strng{bibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorbibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authornamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorfullhash}{a0150ef93b18b2ff861e6f951ac19245}
+      \strng{authorfullhashraw}{a0150ef93b18b2ff861e6f951ac19245}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.stat-mech}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{number}{6}
+      \field{title}{{Numerical fluid dynamics for FRG flow equations: Zero-dimensional QFTs as numerical test cases. II. Entropy production and irreversibility of RG flows}}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{065013}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.106.065013
+      \endverb
+      \verb{eprint}
+      \verb 2108.10085
+      \endverb
+      \keyw{pub}
+    \endentry
+    \entry{Steil:2021cbu}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=49fcb2fa68a625847384be50c22c850d}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4b23d88736ad751bed13656e4d7c84c5}{%
+           family={Koenigstein},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{fullhash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{fullhashraw}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{bibnamehash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{authorbibnamehash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{authornamehash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{authorfullhash}{de01884df822fc32cfb97bf78d4dd63b}
+      \strng{authorfullhashraw}{de01884df822fc32cfb97bf78d4dd63b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.stat-mech}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{number}{6}
+      \field{title}{{Numerical fluid dynamics for FRG flow equations: Zero-dimensional QFTs as numerical test cases. III. Shock and rarefaction waves in RG flows reveal limitations of the $N\ensuremath{\rightarrow}\ensuremath{\infty}$ limit in $O(N)$-type models}}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{065014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.106.065014
+      \endverb
+      \verb{eprint}
+      \verb 2108.04037
+      \endverb
+      \keyw{pub}
+    \endentry
+    \entry{Koenigstein:2021llr}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4b23d88736ad751bed13656e4d7c84c5}{%
+           family={Koenigstein},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=abe11417c221dce0736e5145dc49262a}{%
+           family={Pannullo},
+           familyi={P\bibinitperiod},
+           given={Laurin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4a4012c0e74cdc83d9be7ff73b80a5d0}{%
+           family={Rechenberger},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=49fcb2fa68a625847384be50c22c850d}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d5ff316408770580864d34a133ded944}{%
+           family={Winstel},
+           familyi={W\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{fullhash}{7534d67aeb39beb4f2050b18039c8fca}
+      \strng{fullhashraw}{7534d67aeb39beb4f2050b18039c8fca}
+      \strng{bibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorbibnamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authornamehash}{877d3d3f37b69447f3a60180fef5ebe6}
+      \strng{authorfullhash}{7534d67aeb39beb4f2050b18039c8fca}
+      \strng{authorfullhashraw}{7534d67aeb39beb4f2050b18039c8fca}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{J. Phys. A}
+      \field{number}{37}
+      \field{title}{{Detecting inhomogeneous chiral condensation from the bosonic two-point function in the (1 + 1)-dimensional Gross–{}Neveu model in the mean-field approximation*}}
+      \field{volume}{55}
+      \field{year}{2022}
+      \field{pages}{375402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1751-8121/ac820a
+      \endverb
+      \verb{eprint}
+      \verb 2112.07024
+      \endverb
+      \keyw{pub}
+    \endentry
+    \entry{Stoll:2021ori}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=91e697c02cd1c6904c8a5668487f4919}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df3243189787754cea5bab1ac94ea05b}{%
+           family={Zorbach},
+           familyi={Z\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4b23d88736ad751bed13656e4d7c84c5}{%
+           family={Koenigstein},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49fcb2fa68a625847384be50c22c850d}{%
+           family={Steil},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4a4012c0e74cdc83d9be7ff73b80a5d0}{%
+           family={Rechenberger},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5916161b58d123615af443b591d8d12b}
+      \strng{fullhash}{c329d5cf9db567a2da5910498c0107e6}
+      \strng{fullhashraw}{c329d5cf9db567a2da5910498c0107e6}
+      \strng{bibnamehash}{5916161b58d123615af443b591d8d12b}
+      \strng{authorbibnamehash}{5916161b58d123615af443b591d8d12b}
+      \strng{authornamehash}{5916161b58d123615af443b591d8d12b}
+      \strng{authorfullhash}{c329d5cf9db567a2da5910498c0107e6}
+      \strng{authorfullhashraw}{c329d5cf9db567a2da5910498c0107e6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{month}{8}
+      \field{title}{{Bosonic fluctuations in the $( 1 + 1 )$-dimensional Gross-Neveu(-Yukawa) model at varying $\mu$ and $T$ and finite $N$}}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2108.10616
+      \endverb
+      \keyw{pub}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

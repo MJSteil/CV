@@ -1,0 +1,234 @@
+\documentclass[color=TUDa-1b]{komacv}
+% ********* Setup ********* %
+\usepackage{ifthen}
+\newboolean{german}
+\setboolean{german}{false} % Set to true for German, false for English
+\input{setup}
+
+% ********* Daten ********* %
+\input{personal_data}
+
+% ********* CV ********* %
+\begin{document}
+\raggedbottom
+\maketitle
+
+
+% ****** Personal data ****** %
+\lang{\section{Persönliche Daten}}{\section{Personal information}}
+
+\cvitem{\lang{Geburtsdatum}{Date of birth}}{\lang{23. Oktober}{October 23,} 1991}
+\cvitem{\lang{Geburtsort}{Place of birth}}{Offenbach am Main}
+\cvitem{\lang{Nationalität}{Nationality}}{\lang{Deutsch}{German}}
+
+
+% ****** Professional experience ****** %
+\lang{\section{Berufserfahrung}}{\section{Professional experience}}
+
+\cventry%
+	{\mmyyyy{08}{2017}--\mmyyyy{12}{2021}}%
+	{\lang{Wissenschaftlicher Mitarbeiter}{Research associate}}%
+	{\lang{Institut für Kernphysik, Technische Universität Darmstadt}{Institute for Nuclear Physics, Technische Universität Darmstadt}}%
+	{}{}%
+	{\lang%
+		{Studie von inhomogenen chirale Kondensaten mit der funktionalen Renormierungsgruppe (26 Wochenarbeitsstunden)}%
+		{Study of inhomogeneous chiral condensates within the functional renormalization group (26h/week)}
+	}
+\cventry%
+	{\mmyyyy{04}{2016}--\mmyyyy{09}{2016} \mmyyyy{10}{2011}--\mmyyyy{10}{2015}}%
+	{\lang{Studentische Hilfskraft}{Student assistant}}{\lang{Zentrale Studienberatung, Technische Universität Darmstadt}{Central student advisory office, Technische Universität Darmstadt}}%
+	{}{}%
+	{\lang%
+		{IT-Support, Webmaster, Print- und Webdesign (15 Wochenarbeitsstunden)}%
+		{IT support, webmaster, print- and web-design (15h/week)}
+	}
+
+
+% ****** Education ****** %
+\lang{\section{Ausbildung}}{\section{Education}}
+
+\cventry%
+	{\mmyyyy{08}{2017}--\mmyyyy{06}{2024}}%
+	{\lang{Promotion in Physik}{PhD in Physics}}{Technische Universität Darmstadt}%
+	{}{}%
+	{\lang%
+		{Dissertation ``From zero-dimensional theories to inhomogeneous phases with the functional renormalization group'' unter der Betreuung von Priv.-Doz. Dr. Michael Buballa}%
+		{Dissertation ``From zero-dimensional theories to inhomogeneous phases with the functional renormalization group'' under the supervision of Priv.-Doz. Dr. Michael Buballa}\\
+		\gradePhD{}
+	}
+\cventry%
+	{\mmyyyy{02}{2015}--\mmyyyy{07}{2017}}%
+	{Master of Science in \lang{Physik}{Physics}}%
+	{Technische Universität Darmstadt}%
+	{}{}%
+	{\lang%
+		{Masterarbeit ``Structure of slowly rotating magnetized neutron stars in a perturbative approach'' unter der Betreuung von Priv.-Doz. Dr. Michael Buballa}%
+		{Master’s thesis ``Structure of slowly rotating magnetized neutron stars in a perturbative approach'' under the supervision of Priv.-Doz. Dr. Michael Buballa}\\
+		\gradeMSc{}
+	}
+\cventry%
+	{\mmyyyy{10}{2011}--\mmyyyy{02}{2015}}%
+	{Bachelor of Science in \lang{Physik}{Physics}}%
+	{Technische Universität Darmstadt}%
+	{}{}%
+	{\lang%
+		{Bachelorarbeit ``Hadron-quark crossover and massive hybrid stars'' unter der Betreuung von Priv.-Doz. Dr. Michael Buballa}%
+		{Bachelor’s thesis ``Hadron-quark crossover and massive hybrid stars'' under the supervision of Priv.-Doz. Dr. Michael Buballa}\\
+		\gradeBSc{}
+	}
+\cventry%
+	{\mmyyyy{05}{2011}}%
+	{Abitur}%
+	{Claus-von-Stauffenberg-Schule Rodgau}
+	{}{}%
+	{\gradeAbi{}}
+
+
+% ****** Research profile ****** %
+\lang{\section{Forschungsprofil}}{\section{Research profile}}
+
+\lang{\subsection{Dissertation}}{\subsection{Dissertation}}
+\cvitem{\mmyyyy{08}{2024}}{\fullcite{Steil:2024phd}}
+
+\lang{\subsection{Veröffentlichungen}}{\subsection{Publications}}
+\cvitem{\mmyyyy{09}{2022}}{\fullcite{Koenigstein:2021syz}}%0d part I paper -- zerod1
+\cvitem{\mmyyyy{09}{2022}}{\fullcite{Koenigstein:2021rxj}} %0d part II paper -- zerod2
+\cvitem{\mmyyyy{09}{2022}}{\fullcite{Steil:2021cbu}} %0d part III paper -- zerod3
+\cvitem{\mmyyyy{08}{2022}}{\fullcite{Koenigstein:2021llr}}\bigskip % GN stability analysis paper-- gns
+\cvitem{\mmyyyy{08}{2021}}{\fullcite{Stoll:2021ori}} %GN published manuskript/preprint -- gn
+
+\lang{\subsection{Lehre}}{\subsection{Teaching}}
+\cventry%
+	{\mmyyyy{08}{2017}--\mmyyyy{12}{2021}}%
+	{\lang{Lehrassistent}{Teaching assistant}}%
+	{\lang{Fachbereich Physik, Technische Universität Darmstadt}{Department of Physics, Technische Universität Darmstadt}}%
+	{}{}%
+	{\begin{itemize}
+		\setlength\itemsep{-.1em}
+			\item \textit{\lang{``Quantenfeldtheorie II'' (Wintersemester 2019/20)}{``Quantum Field Theory II'' (winter term 2019/20)}}
+			\item \textit{\lang{``Quantenfeldtheorie I'' (Sommersemester 2019)}{``Quantum Field Theory I'' (summer term 2019)}}
+			\item \textit{\lang{``Klassische Teilchen und Felder für Lehramt'' (Wintersemester 2018/19)}{``Classical Particles and Fields for Teachers'' (winter term 2018/19)}}
+			\item \textit{\lang{``Klassische Teilchen und Felder für Lehramt'' (Wintersemester 2017/18)}{``Classical Particles and Fields for Teachers'' (winter term 2017/18)}}
+	\end{itemize}}
+\cventry%
+	{\mmyyyy{08}{2017}--\mmyyyy{12}{2021}}%
+	{\lang{Mitbetreuung von Abschlussarbeiten}{Supervision of theses}}%
+	{\lang{Fachbereich Physik, Technische Universität Darmstadt}{Department of Physics, Technische Universität Darmstadt}}%
+	{}{}%
+	{\lang{Zweitkorrektur und Mitbetreuung von zwei Bachelor Arbeiten}{Second referee and co-supervision of two bachelor theses}}
+
+
+% ****** Languages ****** %
+\lang{\section{Sprachen}}{\section{Languages}}
+
+\cvitemwithcomment{\lang{Deutsch}{German}}{\lang{fließend}{fluent}}{\lang{Muttersprache}{mother tongue}}
+\cvitemwithcomment{\lang{Englisch}{English}}{\lang{fließend}{fluent}}{\lang{mündlich und schriftlich}{oral and written}}
+
+
+% ****** Skills and qualifications ****** %
+\lang{\section{Kenntnisse und Qualifikationen}}{\section{Skills and qualifications}}
+
+\cvitem%
+	{\lang{Theoretische Hochenergiephysik}{Theoretical high-energy physics}}%
+	{\lang%
+		{Funktionale Renormierungsgruppe, nulldimensionale Theorien, stark wechselwirkende Systeme, (in)homogene chirale Phasen und statistische Physik}%
+		{Functional renormalization group, zero-dimensional theories, strongly interacting systems, (in)homogeneoues phases, and statistical physics}
+	}
+\cvitem%
+	{\lang{Mathematik}{Math}}%
+	{\lang%
+		{(Numerische) Strömungsmechanik, gewöhnliche und partielle Differentialgleichungen, lokale und globale Minimierung, hochdimensionale Integrale und funktionale Methoden}%
+		{(Numerical) fluid dynamics, ordinary and partial differential equations, local and global minimization, high-dimensional integrals, and functional methods}
+	}
+\cvitem%
+	{\lang{Programmieren}{Programming}}%
+	{Wolfram Language/Mathematica, C/C++, Python, Doxygen\lang{ und}{, and} Git}
+\cvitem%
+	{\lang{Schriftsatz}{Typesetting}}%
+	{\LaTeX, Microsoft Office\lang{ und}{, and} Adobe InDesign}
+\cvitem%
+	{\lang{Wissenschaftliche Visualisierung}{Scientific visualization}}%
+	{Mathematica, Matplotlib, Axodraw2\lang{ und}{, and} TikZ}
+\cvitem%
+	{\lang{Grafikdesign}{Graphics design}}%
+	{Adobe Photoshop\lang{ und}{ and} Maxon Cinema 4D}
+\cvitem%
+	{\lang{Soft-Skill-Training}{Soft skill training}}%
+	{%
+		HGS-HIRe \lang{Soft-Skill-Training-Programm (2018-2020)}{soft skill training program (2018-2020)}:\newline
+		\begin{itemize}
+		\setlength\itemsep{-.1em}
+			\item Basic Course 1: \textit{Making an Impact as an Effective Researcher}
+			\item Basic Course 2: \textit{Leading Teams in a Research Environment}
+			\item Basic Course 3: \textit{Career and Leadership Development}
+		\end{itemize}
+	}
+
+\cvitem%
+	{\lang{Führerschein}{Drivers license}}%
+	{\lang{Klasse B seit \mmyyyy{10}{2008}}{German driving license class B since \mmyyyy{10}{2008}}}
+
+
+% ****** Academic associations ****** %
+\lang{\section{Akademische Zugehörigkeiten}}{\section{Academic associations}}
+
+\cvitem%
+	{\mmyyyy{08}{2017}--\mmyyyy{10}{2024}}%
+	{\lang%
+		{Junior-Mitglied des \textit{Sonderforschungsbereichs TransRegio 211} \newline (gefördert durch die Deutsche Forschungsgemeinschaft)}%
+		{Junior member of the \textit{Collaborative Research Center TransRegio 211}\newline (funded by Deutsche Forschungsgemeinschaft)}
+	}
+\cvitem%
+	{\mmyyyy{01}{2018}--\mmyyyy{07}{2024}}%
+	{\lang%
+		{Mitglied der \textit{Helmholtz Graduate School for Hadron and Ion Research} (HGS-HIRe)}
+		{Member of the \textit{Helmholtz Graduate School for Hadron and Ion Research} (HGS-HIRe)}
+	}
+\cvitem%
+	{\lang{seit}{since} \mmyyyy{08}{2017}}%
+	{\lang%
+		{Mitglied der \textit{Deutschen Physikalischen Gesellschaft e. V.}}%
+		{Member of the \textit{Deutsche Physikalische Gesellschaft e. V.}}
+	}
+
+
+% ****** Awards ****** %
+\lang{\section{Auszeichnungen}}{\section{Awards}}
+
+\cvitem%
+	{\mmyyyy{10}{2019}}%
+	{\lang%
+		{Giersch-Excellence-Grant: in Anerkennung herausragender Leistungen im Doktorarbeitsprojekt \textit{``Inhomogeneous Chiral Condensates within the Functional Renormalization Group''}}
+		{Giersch-Excellence-Grant: in recognition of outstanding achievements in the doctoral thesis project \textit{``Inhomogeneous Chiral Condensates within the Functional Renormalization Group''}}
+	}
+\cvitem%
+	{\mmyyyy{05}{2011}}
+	{\lang%
+		{GDCh-Preis für den besten Abiturienten in Chemie an der Claus-von-Stauffenberg-Schule Rodgau}
+		{GDCh-Award for the best high-school graduate in chemistry at the Claus-von-Stauffenberg-Schule Rodgau}
+	}
+
+
+% ****** Awards ****** %
+\lang{\section{Interessen}}{\section{Interests}}
+
+\cvitem%
+	{\lang{Computer}{Computer}}%
+	{\lang{Case-Modding, Wasserkühlung und Programmieren}{Case modding, watercooling, and programming}}
+\cvitem%
+	{\lang{Sport}{Sports}}%
+	{\lang{Schwimmen, online Schach und Sudoku}{Swimming, online chess, and Sudoku}}
+\cvitem%
+	{\lang{Theoretische Physik}{Theoretical physics}}
+	{\lang%
+		{Funktionale Renormierungsgruppe, nulldimensionale Theorien, stark wechselwirkende Systeme und (in)homogene chirale Phasen}%
+		{Functional Renormalizationgroup, zero-dimensional theories, strongly interacting systems, in(homogeneous) phases}
+	}
+\cvitem%
+	{\lang{Künstliche Intelligenz und Machine Learning}{Artificial intelligence and machine learning}}
+	{\lang%
+		{KI Art (Dall-E, Bing), KI Musik (Suno), Github Copilot und ChatGPT-Anwendungen}%
+		{AI Art (Dall-E, Bing), AI Musik (Suno), Github Copilot und ChatGPT-Applications}
+	}
+
+\end{document}
