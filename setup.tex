@@ -12,11 +12,12 @@
 \usepackage[utf8]{inputenc}
 \lang{\usepackage[english, main=ngerman]{babel}}{\usepackage[english]{babel}}
 \usepackage{csquotes}
+\usepackage{enumitem}
 
 \pagestyle{scrheadings}
 \clearpairofpagestyles
 
-\ifoot{\lang{Lebenslauf}{CV} - \firstname~\familyname}
+\ifoot{\lang{Lebenslauf}{CV} -- \firstname~\familyname}
 \ofoot{\pagemark /\,\usekomafont{pagenumber}{\pageref*{LastPage}}}
 
 \renewcommand*{\familydefault}{\sfdefault}
@@ -39,6 +40,23 @@
 }%cventry
 \makeatother
 
+\makeatletter\newcommand*{\programmingLanguage}[4]{%
+	\textbf{#1:} %
+	\ifstrequal{#2}{0}{\lang{Anfänger}{Beginner} }{%
+	\ifstrequal{#2}{1}{\lang{Fortgeschritten}{Intermediate} }{%
+	\ifstrequal{#2}{2}{\lang{Sehr Fortgeschritten}{Advanced} }{%
+	\ifstrequal{#2}{3}{\lang{Experte}{Expert} }{%
+	}}}}%
+	(#3 \lang{Jahr}{year}\ifstrequal{#3}{1}{}{\lang{e}{s}})\newline\vspace{3pt}%
+	\ifstrempty{#4}{}{%
+		\begin{itemize}[topsep=0pt]
+		\setlength\itemsep{-.1em}\small
+			#4
+		\end{itemize}
+	}\vspace{6pt}%
+}%
+\makeatother
+
 \renewcommand*\urlbordercolor{TUDa-1b}
 \hypersetup{
 	colorlinks=true,
@@ -47,4 +65,4 @@
 	urlcolor=TUDa-1b
 }
 
-\lang{\renewcommand*\pdftitle{Lebenslauf}}{\renewcommand*\pdftitle{Curriculum vitae}}
+\lang{\renewcommand*\pdftitle{Lebenslauf -- Martin Jakob Steil}}{\renewcommand*\pdftitle{Curriculum vitae -- Martin Jakob Steil}}

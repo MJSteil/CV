@@ -2,7 +2,7 @@
 % ********* Setup ********* %
 \usepackage{ifthen}
 \newboolean{german}
-\setboolean{german}{false} % Set to true for German, false for English
+\setboolean{german}{true} % Set to true for German, false for English
 \input{setup}
 
 % ********* Daten ********* %
@@ -141,8 +141,29 @@
 		{(Numerical) fluid dynamics, ordinary and partial differential equations, local and global minimization, high-dimensional integrals, and functional methods}
 	}
 \cvitem%
-	{\lang{Programmieren}{Programming}}%
-	{Wolfram Language/Mathematica, C/C++, Python, Doxygen\lang{ und}{, and} Git}
+	{\lang{Programmieren und\newline Softwareentwicklung}{Programming and\newline Software development}}%
+	{%
+		\programmingLanguage{Wolfram Language/Mathematica}{3}{12+}{%
+			\item \lang{Numerische, symbolische, analytische und diagrammatische Berechnungen}{Numeric, symbolic, analytic, and diagrammatic computations}
+			\item \lang{Differenzialgleichungen und \textit{Finite Volume} Verfahren}{Differential equations and finite volume method}
+			\item \lang{Objektorientierte Programmierung, Visualisierung, Stylesheets, Import/Export, Packages,}{Object-oriented programming, visualization, stylesheets, import/export, packages,} $\ldots$%
+		}%
+		\programmingLanguage{C/C++}{2}{7+}{%
+			\item \lang{Generische und objektorientierte Programmierung}{Generic and object-oriented programming}
+			\item \lang{Parallelisierung mit \texttt{OMP} und \texttt{MPI}}{Parallelization with \texttt{OMP} and \texttt{MPI}}
+			\item \lang{Wissenschaftliches Rechnen mit }{Scientific computing with }\texttt{GSL}, \texttt{Sundials}, \texttt{Boost}, \texttt{Cubature}, $\ldots$
+		}%
+		\programmingLanguage{Python}{1}{7+}{
+			\item \lang{Wissenschaftliche Visualisierung mit \texttt{Matplotlib}}{Scientific visualization with \texttt{matplotlib}}
+			\item \lang{Wissenschaftliches Rechnen mit }{Scientific computing with }\texttt{Pandas}, \texttt{SciPy}, $\ldots$
+		}%
+		\programmingLanguage{\lang{Versionskontrolle \& Dokumentation}{Version control \& documentation}}{1}{7+}{
+			\item \lang{Git und SVN}{Git and SVN}
+			\item Doxygen
+		}%
+		\programmingLanguage{Java}{0}{1}{}
+		\programmingLanguage{Matlab}{0}{1}{}
+	}
 \cvitem%
 	{\lang{Schriftsatz}{Typesetting}}%
 	{\LaTeX, Microsoft Office\lang{ und}{, and} Adobe InDesign}
@@ -168,7 +189,7 @@
 	{\lang{Führerschein}{Drivers license}}%
 	{\lang{Klasse B seit \mmyyyy{10}{2008}}{German driving license class B since \mmyyyy{10}{2008}}}
 
-
+\clearpage
 % ****** Academic associations ****** %
 \lang{\section{Akademische Zugehörigkeiten}}{\section{Academic associations}}
 
@@ -214,7 +235,7 @@
 
 \cvitem%
 	{\lang{Computer}{Computer}}%
-	{\lang{Case-Modding, Wasserkühlung und Programmieren}{Case modding, watercooling, and programming}}
+	{\lang{Programmieren, Case-Modding und Wasserkühlung}{Programming, case modding, and watercooling}}
 \cvitem%
 	{\lang{Sport}{Sports}}%
 	{\lang{Schwimmen, online Schach und Sudoku}{Swimming, online chess, and Sudoku}}
